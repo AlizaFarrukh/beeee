@@ -65,7 +65,7 @@ class Solution {
 			int ans;
 			try {
 				int[] clean = {1,2,3,4,5,6,1,1,6,6,6};
-				int[]dirty = {6,4,1,6,4,2,4,6,2,1};
+				int[]dirty = {6,4,1,1,1,1,1,1,1,1,2,4,6,2,1};
 				ans = sol.solution(6, clean, dirty);
 				System.out.println(ans);
 			} catch (Exception e) {
